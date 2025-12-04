@@ -6,7 +6,7 @@ class_name WalletManager
 
 # VARIABLES
 
-@export var wallets: Dictionary[String, Wallet]
+@export var wallets: Dictionary[String, Wallet] ## Wallet name: Wallet resource. The wallets contained and managed by this manager.
 
 
 # FUNCTIONS
